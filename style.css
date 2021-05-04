@@ -14,6 +14,7 @@ body {
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .semi_bold {
     font-weight: 500;
@@ -28,17 +29,22 @@ body {
 .cv .cv_right {
     width: 280px;
     background: rgb(78, 78, 170);
-    padding: 20px;
+    padding: 20px 25px;
 }
-/* .cv .cv_right .cv_profile {
-    width: 100px;
-} */
 .pro-img {
     width: 200px;
     height: 200px;
+    border: 4px solid white;
+
 }
-.cv .title {
-    margin-bottom: 20px;
+.name{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.cv_profile{
+    margin: 0rem auto;
+    width: 100%;
+    text-align: center;
 }
 .cv .cv_right .cv_bold {
     color:brown
@@ -47,13 +53,13 @@ body {
     color: rgb(141, 59, 59);
 }
 .cv .cv_item {
-    padding: 25px 0;
+    padding-top: 20px;
 }
 .cv-left{
     width: 500px;
     background: rgb(233, 233, 236);
     padding: 20px;
-    min-height: 895px;
+    min-height: 100%;
 }
 h2 .tx-blue{
     text-transform: uppercase;
@@ -84,5 +90,25 @@ ol{
     margin-left: 15px;
 }
 .cv-height{
-    height: 100%;
+    height: 920px;
+}
+.icons {
+    margin-right: 7px;
+}
+.fa-icon {
+    height:5px;
+    margin-top: 10px;
+    font-size: 2.4rem;
+    padding-right: 0.9em;
+    text-align:center;
+}
+.icon {
+    height:5px;
+    font-size: 2.4rem;
+}
+.d-flex{
+    display: flex;
+}
+.icon-big{
+    font-size: 25px;
 }
